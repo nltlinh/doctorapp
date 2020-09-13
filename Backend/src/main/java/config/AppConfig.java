@@ -46,9 +46,9 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/data?useSSL=false");
-        dataSource.setUsername("root");
-        dataSource.setPassword("Rm!t123sept");
+        dataSource.setUrl("jdbc:mysql://bfbb7cbaddb3c6:ab8cb86b@us-cdbr-east-02.cleardb.com/heroku_efc08862f4df15c?reconnect=true");
+        dataSource.setUsername("bfbb7cbaddb3c6");
+        dataSource.setPassword("ab8cb86b");
 
         sessionFactoryBean.setDataSource(dataSource);
         sessionFactoryBean.setHibernateProperties(properties);
