@@ -1,5 +1,8 @@
 package config;
 
+import model.Booking;
+import model.Doctor;
+import model.Patient;
 import org.hibernate.SessionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -52,15 +55,17 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 
         sessionFactoryBean.setDataSource(dataSource);
         sessionFactoryBean.setHibernateProperties(properties);
-
+        sessionFactoryBean.setAnnotatedClasses(Booking.class, Doctor.class, Patient.class);
         return sessionFactoryBean;
     }
 
     @Bean
-    public HibernateTransactionManager transactionManager(SessionFactory sessionFactory) {
-        HibernateTransactionManager tx = new HibernateTransactionManager(sessionFactory);
+    public HibernateTransactionManager transactionManager() {
+        HibernateTransactionManager tx = new HibernateTransactionManager();
+        tx.setSessionFactory(sessionFactory().getObject());
         return tx;
     }
+
 
 }
 

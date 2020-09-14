@@ -19,9 +19,6 @@ import java.util.List;
 public class PatientController {
 
     @Autowired
-    private SessionFactory sessionFactory;
-
-    @Autowired
     private PatientService patientService;
 
     public PatientController(PatientService patientService) {
@@ -64,11 +61,5 @@ public class PatientController {
     }
 
 
-    public SessionFactory getSessionFactory() {
-        return sessionFactory;
-    }
 
-    public void setSessionFactory(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
 }

@@ -16,8 +16,6 @@ import java.util.List;
 @Transactional
 public class BookingController {
 
-    @Autowired
-    private SessionFactory sessionFactory;
 
     @Autowired
     private BookingService bookingService;
@@ -61,11 +59,4 @@ public class BookingController {
         bookingService.updateBooking(id, booking);
     }
 
-    public SessionFactory getSessionFactory() {
-        return sessionFactory;
-    }
-
-    public void setSessionFactory(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
 }

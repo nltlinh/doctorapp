@@ -16,8 +16,7 @@ import java.util.List;
 @Transactional
 public class DoctorController {
 
-    @Autowired
-    private SessionFactory sessionFactory;
+
     @Autowired
     private DoctorService doctorService;
 
@@ -60,12 +59,4 @@ public class DoctorController {
         doctorService.updateDoctor(id, doctor);
     }
 
-
-    public SessionFactory getSessionFactory() {
-        return sessionFactory;
-    }
-
-    public void setSessionFactory(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
 }
