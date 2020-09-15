@@ -57,26 +57,26 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="model.PatientModelTest" name="testGetBloodType" time="0.001"/>
-  <testcase classname="model.PatientModelTest" name="testSetMedicalHistory" time="0"/>
-  <testcase classname="model.PatientModelTest" name="testSetAllergies" time="0.001"/>
+  <testcase classname="model.PatientModelTest" name="testGetBloodType" time="0"/>
+  <testcase classname="model.PatientModelTest" name="testSetMedicalHistory" time="0.001"/>
+  <testcase classname="model.PatientModelTest" name="testSetAllergies" time="0"/>
   <testcase classname="model.PatientModelTest" name="testGetEmail" time="0"/>
-  <testcase classname="model.PatientModelTest" name="testGetPhone" time="0"/>
+  <testcase classname="model.PatientModelTest" name="testGetPhone" time="0.001"/>
   <testcase classname="model.PatientModelTest" name="testSetFirstName" time="0"/>
   <testcase classname="model.PatientModelTest" name="testSetHealthStatus" time="0"/>
-  <testcase classname="model.PatientModelTest" name="testGetAddress" time="0"/>
+  <testcase classname="model.PatientModelTest" name="testGetAddress" time="0.001"/>
   <testcase classname="model.PatientModelTest" name="testGetMedicalHistory" time="0"/>
-  <testcase classname="model.PatientModelTest" name="testSetBloodType" time="0.001"/>
-  <testcase classname="model.PatientModelTest" name="testSetLastName" time="0"/>
+  <testcase classname="model.PatientModelTest" name="testSetBloodType" time="0"/>
+  <testcase classname="model.PatientModelTest" name="testSetLastName" time="0.001"/>
   <testcase classname="model.PatientModelTest" name="testGetLastName" time="0"/>
-  <testcase classname="model.PatientModelTest" name="testGetFistName" time="0"/>
-  <testcase classname="model.PatientModelTest" name="testSetGender" time="0.001"/>
+  <testcase classname="model.PatientModelTest" name="testGetFistName" time="0.001"/>
+  <testcase classname="model.PatientModelTest" name="testSetGender" time="0"/>
   <testcase classname="model.PatientModelTest" name="testGetAllergies" time="0"/>
-  <testcase classname="model.PatientModelTest" name="testSetAddress" time="0.002"/>
+  <testcase classname="model.PatientModelTest" name="testSetAddress" time="0.001"/>
   <testcase classname="model.PatientModelTest" name="testGetGender" time="0"/>
   <testcase classname="model.PatientModelTest" name="testGetDoB" time="0"/>
   <testcase classname="model.PatientModelTest" name="testSetDoB" time="0"/>
   <testcase classname="model.PatientModelTest" name="testGetHealthStatus" time="0"/>
-  <testcase classname="model.PatientModelTest" name="testSetEmail" time="0.002"/>
-  <testcase classname="model.PatientModelTest" name="testSetPhone" time="0"/>
+  <testcase classname="model.PatientModelTest" name="testSetEmail" time="0.001"/>
+  <testcase classname="model.PatientModelTest" name="testSetPhone" time="0.001"/>
 </testsuite>
