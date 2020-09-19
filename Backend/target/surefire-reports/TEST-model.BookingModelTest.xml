@@ -59,8 +59,8 @@
   </properties>
   <testcase classname="model.BookingModelTest" name="testGetDoctorId" time="0"/>
   <testcase classname="model.BookingModelTest" name="testGetId" time="0"/>
-  <testcase classname="model.BookingModelTest" name="testDate" time="0.001"/>
+  <testcase classname="model.BookingModelTest" name="testDate" time="0"/>
   <testcase classname="model.BookingModelTest" name="testTime" time="0"/>
-  <testcase classname="model.BookingModelTest" name="testGetPatientId" time="0"/>
+  <testcase classname="model.BookingModelTest" name="testGetPatientId" time="0.001"/>
   <testcase classname="model.BookingModelTest" name="bookingModelTest" time="0"/>
 </testsuite>

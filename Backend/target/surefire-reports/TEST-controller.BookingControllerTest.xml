@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="controller.BookingControllerTest" time="0.107" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="controller.BookingControllerTest" time="0.125" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14.0.1+14"/>
@@ -57,9 +57,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="controller.BookingControllerTest" name="shouldReturnGetAll" time="0.027"/>
-  <testcase classname="controller.BookingControllerTest" name="shouldMakeNewBooking" time="0.025"/>
-  <testcase classname="controller.BookingControllerTest" name="shouldCancelBooking" time="0.015"/>
+  <testcase classname="controller.BookingControllerTest" name="shouldReturnGetAll" time="0.023"/>
+  <testcase classname="controller.BookingControllerTest" name="shouldMakeNewBooking" time="0.027"/>
+  <testcase classname="controller.BookingControllerTest" name="shouldCancelBooking" time="0.033"/>
   <testcase classname="controller.BookingControllerTest" name="shouldUpdateBooking" time="0.02"/>
-  <testcase classname="controller.BookingControllerTest" name="shouldReturnGetBookingsbyUsername" time="0.02"/>
+  <testcase classname="controller.BookingControllerTest" name="shouldReturnGetBookingsbyUsername" time="0.022"/>
 </testsuite>
